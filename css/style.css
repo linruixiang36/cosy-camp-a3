@@ -62,7 +62,7 @@ input {
     color: #4c4c4c;
 }
 
-.menu-togle,
+.menu-toggle,
 .cart-button {
     width: 42px;
     height: 42px;
@@ -71,11 +71,11 @@ input {
     position: relative;
 }
 
-.menu-togle {
+.menu-toggle {
     display: none;
 }
 
-.menu-togle span {
+.menu-toggle span {
     display: block;
     width: 20px;
     height: 2px;
@@ -88,7 +88,7 @@ input {
     height: 18px;
     display: block;
     margin: 12px auto 0;
-    background: 2px solid var(--text);
+    border: 2px solid var(--text);
     border-top: 0;
 }
 
@@ -167,7 +167,7 @@ body.menu-open .mobile-menu {
 }
 
 .hero-search {
-    width: min(672px, calc(100%-48px));
+    width: min(672px, calc(100% - 48px));
     height: 90px;
     position: absolute;
     left: 50%;
@@ -184,6 +184,229 @@ body.menu-open .mobile-menu {
     border-radius: 4px;
     background: var(--yellow);
 }
-.
+
+.category-strip {
+    min-height: 81px;
+    display: flex;
+    gap: clamp(18px, 4vw, 65px);
+    align-items: center;
+    padding: 0 36px;
+    overflow-x: auto;
+    border-bottom: 1px solid var(--line);
+}
+
+.category-strip a {
+    min-width: 138px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 52px 12px;
+}
+
+.section-title h1{
+    margin: 0;
+    font-size: clamp(32px, 5vw, 54px);
+}
+
+.section-title a {
+    font-size: 24px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax (0,1fr));
+    gap: 38px;
+    padding: 0 52px 76px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 265px;
+    object-fit: cover;
+    border-radius: 6px;
+    background: #ebe8e2;
+}
+
+.product-info {
+    min-height: 140px;
+    margin-top: 12px;
+    padding: 16px 18px 22px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: #ffffffff;
+}
+
+.product-info h2 {
+    margin: 0 0 10px;
+    font-size: 19px;
+    line-height: 1.3;
+}
+
+.rating {
+    margin: 0;
+    color: var(--text);
+}
+
+.rating span {
+    color: #bdb8b0;
+}
+
+.rating small {
+    margin-left: 8px;
+    color: var(--muted)
+}
+
+.price {
+    margin: 18px 0 0;
+    color: var(--red);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.site-footer {
+    min-height: 320px;
+    display: grid;
+    grid-template-columns: minmax(240px, 1fr) minmax(220px, 320px);
+    gap: 64px;
+    padding: 60px 82px 26px;
+    background: var(--soft);
+    border-top: 1px solid var(--line);
+}
+
+.site-footer h2 {
+    margin: 0 0 18px;
+    font-size: 20px;
+}
+
+.site-footer p,
+.site-footer a {
+    color: #555;
+    line-height: 1.8;
+}
+
+.site-footer a {
+    display: block;
+}
+
+.copyright {
+    grid-column: 1/-1;
+    justify-self: center;
+    width: 100%;
+    padding-top: 24px;
+    grid-template-columns: 44px 1fr 44px;
+    gap: 0;
+    padding: 0 12px;
+}
+@media (max-width: 900px) {
+    .site-header {
+        height: 47px;
+        grid-template-columns: 44px 1fr 44px;
+        gap: 0;
+        padding: 0 12px;
+    }
+
+.brand {
+    justify-self: center;
+    font-size: 18px;
+}
+
+.desktop-nav,
+.header-search {
+    display: none;
+}
+
+.menu-toggle {
+    display: block;
+}
+
+.mobile-menu {
+    font-size: 14px;
+}
+
+.hero img {
+     min-height: 360px;
+}
+
+.hero {
+    min-height: 360px;
+}
+
+.hero-search {
+    width: calc(100% - 40px);
+    height: 56px;
+}
+
+.hero-search button {
+    width: 42px;
+    height: 42px;
+    margin-right: 7px;
+}
+
+.category-strip {
+    min-height: 73px;
+    gap: 14px;
+    padding: 0 20px;
+}
+
+.category-strip a {
+    font-size: 32px;
+}
+
+.section-title  {
+    padding: 28px 20px 12px;
+}
+
+.section-title h1 {
+    font-size: 32px;
+}
+
+.section-title a {
+    font-size: 20px;
+}
+
+.product-grid{
+    grid-template-columns: 1fr;
+    gap: 34px;
+    padding: 0 20px 48px;
+}
+
+.product-card img {
+    height: auto;
+    aspect-ratio:  375/265;
+}
+
+.product-info h2 {
+    font-size: 16px;
+}
+
+.price {
+    font-size: 22px;
+}
+
+.site-footer {
+    display: block;
+    min-height: 420px;
+    padding: 32px 20px 20px;
+}
+
+.site-footer nav {
+    margin-top: 28px;
+  }
+
+  .copyright {
+    margin-top: 28px;
+    padding-top: 12px;
+  }
+}
 
 
