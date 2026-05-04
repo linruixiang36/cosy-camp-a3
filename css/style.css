@@ -223,7 +223,7 @@ body.menu-open .mobile-menu {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax (0,1fr));
+    grid-template-columns: repeat(3, minmax(0,1fr));
     gap: 38px;
     padding: 0 52px 76px;
 }
@@ -262,7 +262,7 @@ body.menu-open .mobile-menu {
 
 .rating small {
     margin-left: 8px;
-    color: var(--muted)
+    color: var(--muted);
 }
 
 .price {
@@ -303,10 +303,8 @@ body.menu-open .mobile-menu {
     justify-self: center;
     width: 100%;
     padding-top: 24px;
-    grid-template-columns: 44px 1fr 44px;
-    gap: 0;
-    padding: 0 12px;
 }
+
 @media (max-width: 900px) {
     .site-header {
         height: 47px;
@@ -334,7 +332,7 @@ body.menu-open .mobile-menu {
 }
 
 .hero img {
-     min-height: 360px;
+     height: 360px;
 }
 
 .hero {
@@ -359,7 +357,7 @@ body.menu-open .mobile-menu {
 }
 
 .category-strip a {
-    font-size: 32px;
+   min-width: 112px;ß
 }
 
 .section-title  {
