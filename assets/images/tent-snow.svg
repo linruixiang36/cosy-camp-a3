@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 430" role="img" aria-labelledby="title desc">
+  <title id="title">SNOW PEAK Land Nest Shelter</title>
+  <desc id="desc">A tan shelter tent with open sides.</desc>
+  <rect width="520" height="430" fill="#f1eee9"/>
+  <ellipse cx="270" cy="335" rx="175" ry="22" fill="#c8c0b5"/>
+  <path d="M90 300 L232 112 L445 300 Z" fill="#b49b79"/>
+  <path d="M232 112 L300 300 H90 Z" fill="#d0b894"/>
+  <path d="M232 112 L445 300 H300 Z" fill="#9e8060"/>
+  <path d="M154 300 L228 174 L310 300 Z" fill="#4d443a"/>
+  <path d="M228 174 L310 300 L252 300 Z" fill="#746554"/>
+  <path d="M350 300 L394 234 L445 300 Z" fill="#dfc59b"/>
+  <path d="M88 300 H448" stroke="#4c4036" stroke-width="7" stroke-linecap="round"/>
+  <path d="M232 112 L300 300" stroke="#6b5848" stroke-width="5"/>
+  <path d="M228 174 L154 300" stroke="#5a4b3f" stroke-width="4"/>
+  <circle cx="232" cy="112" r="7" fill="#6f553c"/>
+</svg>

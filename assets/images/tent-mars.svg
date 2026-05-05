@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 430" role="img" aria-labelledby="title desc">
+  <title id="title">MARS air swag</title>
+  <desc id="desc">A dark compact air swag tent.</desc>
+  <rect width="520" height="430" fill="#eeeae4"/>
+  <ellipse cx="250" cy="328" rx="168" ry="22" fill="#beb8af"/>
+  <path d="M88 294 L142 154 L388 170 L448 294 Z" fill="#242a2d"/>
+  <path d="M142 154 L208 294 H88 Z" fill="#111719"/>
+  <path d="M142 154 L388 170 L312 294 H208 Z" fill="#383f43"/>
+  <path d="M388 170 L448 294 H312 Z" fill="#171d20"/>
+  <path d="M182 258 L206 196 L278 204 L292 258 Z" fill="#556064"/>
+  <path d="M88 294 H448" stroke="#0f1214" stroke-width="8" stroke-linecap="round"/>
+  <path d="M142 154 L208 294" stroke="#687176" stroke-width="4"/>
+  <path d="M388 170 L312 294" stroke="#697176" stroke-width="4"/>
+  <path d="M106 308 C180 326 330 326 432 308" fill="none" stroke="#67625d" stroke-width="4"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1411 500" role="img" aria-labelledby="title desc">
+  <title id="title">Sunset campsite landscape</title>
+  <desc id="desc">A warm outdoor campsite with hills, trees, and tents at sunset.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6bc68"/>
+      <stop offset="0.45" stop-color="#d8894e"/>
+      <stop offset="1" stop-color="#5e4937"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#7b6a43"/>
+      <stop offset="1" stop-color="#23231c"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <rect width="1411" height="500" fill="url(#sky)"/>
+  <circle cx="1030" cy="145" r="76" fill="#ffe39a" opacity=".9"/>
+  <path d="M0 254 C180 160 330 192 475 258 C640 332 800 260 934 196 C1095 118 1235 158 1411 232 L1411 500 L0 500Z" fill="#4f4636" opacity=".65"/>
+  <path d="M0 328 C230 250 395 282 571 348 C764 420 927 314 1090 280 C1234 250 1327 286 1411 336 L1411 500 L0 500Z" fill="url(#field)"/>
+  <path d="M108 282 h126 l-63 -78Z" fill="#c7a77c"/>
+  <path d="M171 204 l63 78 h-58 l-23 -78Z" fill="#7c583d"/>
+  <rect x="101" y="282" width="145" height="14" rx="2" fill="#4f3526"/>
+  <path d="M1018 312 h170 l-85 -106Z" fill="#cdb089"/>
+  <path d="M1103 206 l85 106 h-78 l-32 -106Z" fill="#7f5a3e"/>
+  <rect x="1006" y="312" width="195" height="16" rx="2" fill="#3f2e24"/>
+  <g fill="#2c3125">
+    <path d="M54 308 l32 -96 32 96Z"/>
+    <path d="M88 315 l42 -134 42 134Z"/>
+    <path d="M1245 288 l38 -118 38 118Z"/>
+    <path d="M1293 300 l52 -156 52 156Z"/>
+    <path d="M846 292 l34 -104 34 104Z"/>
+  </g>
+  <ellipse cx="618" cy="408" rx="280" ry="32" fill="#161711" opacity=".35" filter="url(#soft)"/>
+</svg>

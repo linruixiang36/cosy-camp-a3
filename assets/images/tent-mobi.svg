@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 430" role="img" aria-labelledby="title desc">
+  <title id="title">MOBI GARDEN multi-room tent</title>
+  <desc id="desc">A grey multi-room tent on a neutral studio background.</desc>
+  <rect width="520" height="430" fill="#eeeae3"/>
+  <ellipse cx="260" cy="337" rx="180" ry="20" fill="#c7c0b6"/>
+  <path d="M82 310 L177 118 L438 310 Z" fill="#b9b8b4"/>
+  <path d="M177 118 L236 310 H82 Z" fill="#7f8586"/>
+  <path d="M177 118 L438 310 H236 Z" fill="#d1d0cb"/>
+  <path d="M236 310 L310 175 L438 310 Z" fill="#a7aaa7"/>
+  <path d="M310 175 L438 310 L348 310 Z" fill="#ece8df"/>
+  <path d="M140 264 L180 190 L225 264 Z" fill="#303739"/>
+  <path d="M285 268 L319 206 L371 268 Z" fill="#545b5a"/>
+  <path d="M82 310 H438" stroke="#5d5a55" stroke-width="8" stroke-linecap="round"/>
+  <path d="M177 118 L236 310" stroke="#646462" stroke-width="5"/>
+  <path d="M310 175 L236 310" stroke="#6a6a67" stroke-width="4"/>
+  <path d="M140 264 H225" stroke="#1a1f20" stroke-width="5"/>
+</svg>
