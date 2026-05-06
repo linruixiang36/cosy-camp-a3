@@ -460,6 +460,65 @@ body.menu-open .mobile-menu {
     line-height: 1.8;
 }
 
+.success-panel {
+    max-width: 760px;
+    margin: 52px auto 76px;
+    padding: 42px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: #ffffffff;
+    text-align: center;
+}
+
+.success-label {
+    margin:0 0 12px;
+    color: var(--muted);
+    font-weight: 700;
+}
+
+.success-panel h1 {
+    margin: 0 0 18px;
+    font-size: 44px;
+    line-height: 1.15;
+}
+
+.success-panel > p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.success-details {
+    margin: 28px 0;
+    text-align: left;
+}
+
+.success-actions {
+    display: flex;
+    gap:16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.success-actions .primary-button {
+    min-width: 160px;
+    display: inline-grid;
+    place-items: center;
+    padding: 0 18px;
+    text-decoration: none;
+}
+
+.success-actions .secondary-link {
+    min-height: 52px;
+    display: inline-grid;
+    place-items: center;
+}
+
+
+.secondary-link {
+    font-weight: 700;
+}
+
 .site-footer a {
     display: block;
 }
@@ -601,6 +660,20 @@ body.menu-open .mobile-menu {
 
 .price {
     font-size: 22px;
+}
+
+.success-panel{
+    margin: 28px 20px 48px;
+    padding: 28px 20px;
+}
+
+.success-panel h1 {
+    font-size: 32px;
+}
+
+.success-actions {
+    display:grid;
+    gap:12px;
 }
 
 .site-footer {
