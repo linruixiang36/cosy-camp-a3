@@ -350,6 +350,13 @@ body.menu-open .mobile-menu {
     font-weight: 700;
 }
 
+.add-cart-link {
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+}
+
+
 .cart-layout {
     display: grid;
     grid-template-columns: 1fr 360px;

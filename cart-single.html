@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosy Camp | Single Item Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <button class="menu-toggle" type="button" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <a class="brand" href="homepage.html">Cosy camp</a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+            <a href="homepage.html">Home</a>
+            <a href="products.html">Tent</a>
+            <a href="products.html">Camping</a>
+            <a href="products.html">Accessories</a>
+        </nav>
+
+        <form class="header-search">
+            <label for="site-search">Search products</label>
+            <input id="site-search" type="search" placeholder="Search products..."/>
+        </form>
+
+        <a class="cart-button" href="cart.html" aria-label="Open Cart">
+            <span class="cart-icon"></span>
+            <span class="cart-count">2</span>
+        </a>
+    </header>
+
+    <nav class="mobile-menu" aria-label="Mobile navigation">
+        <a href="homepage.html">Home</a>
+        <a href="products.html">Tent</a>
+        <a href="products.html">Camping</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+
+    <main>
+        <section class="section-title">
+            <h1>Your cart</h1>
+            <a href="products.html">Continue shopping</a>
+        </section>
+
+        <section class="cart-layout" aria-label="Shopping cart">
+            <div class="cart-items">
+                <article class="cart-item">
+                     <img src="assets/images/tent-mobi.svg" alt="MOBI GARDEN Aristocratic Muti-room Tent"/>
+
+                     <div class="cart-item-info">
+                        <h2>MOBI GARDEN Aristocratic Muti-room Tent</h2>
+                         <p>$429.00</p>
+                         <label for="mobi-quantity">Quantity</label>
+                         <input id="mobi-quantity" type="number" min="1" value="1"/>
+                    </div>
+                </article>
+            </div>
+
+           <aside class="cart-summary" aria-label="Order summary">
+            <h2>Order summary</h2>
+
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span>$429.00</span>
+            </div>
+
+            <div class="summary-row">
+                <span>Shipping</span>
+                <span>Free</span>
+            </div>
+
+            <div class="summary-row total-row">
+                <span>Total</span>
+                <span>$429.00</span>
+            </div>
+
+            <a class="primary-button" href="success.html">Checkout</a>
+           </aside>
+          </section>
+        </main>
+
+        <footer class="site-footer">
+            <div>
+                <h2>Cosy Camp</h2>
+                <p>Premium outdoor gear for your adventures.</p>
+            </div>
+
+            <nav aria-label="Footer navigation">
+                <h2>About us</h2>
+                <a href="#">About cosy camp</a>
+                <a href="#">Privacy policys</a>
+                <a href="#">Shopping policy</a>
+                <a href="#">Refund policy</a>
+            </nav>
+
+            <p class="copyright">@2026 Cosy Camp</p>
+        </footer>
+
+        <script src="js/main.js"></script>
+</body>
+</html>
