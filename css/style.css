@@ -36,9 +36,9 @@ input {
 .site-header {
     height: 95px;
     display: grid;
-    grid-template-columns: auto 1fr minmax(260px, 480px) auto;
+    grid-template-columns: 34px auto 1fr minmax(260px, 480px) auto;
     align-items: center;
-    gap: 24px;
+    gap: 22px;
     padding: 0 36px 0 66px;
     border-bottom: 1px solid var(--line);
     background: #ffffffff;
@@ -60,6 +60,18 @@ input {
 .desktop-nav a{
     font-size: 14px;
     color: #4c4c4c;
+}
+
+.back-button {
+    width: 34px;
+    height: 34px;
+    border: 0;
+    background: transparent;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--text);
+    transform: translateY(-2px);
 }
 
 .menu-toggle,
@@ -361,12 +373,14 @@ body.menu-open .mobile-menu {
     display: grid;
     grid-template-columns: 1fr 360px;
     gap:36px;
+    align-items: start;
     padding: 0 52px 76px;
 }
 
 .cart-items {
     display:grid;
     gap:18px;
+    align-content: start;
 }
 
 .cart-item {
