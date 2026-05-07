@@ -554,9 +554,9 @@ body.menu-open .mobile-menu {
 @media (max-width: 900px) {
     .site-header {
         height: 47px;
-        grid-template-columns: 44px 1fr 44px;
-        gap: 0;
-        padding: 0 12px;
+        grid-template-columns: 28px 36px 1fr 44px;
+        gap: 0px;
+        padding: 0 8px;
     }
 
 .brand {
