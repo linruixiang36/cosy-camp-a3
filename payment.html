@@ -50,6 +50,31 @@
             <p class="checkout-step">Step 2 of 3</p>
             <h1>Payment details</h1>
             <p>Please enter your card information to complete the order.</p>
+
+            <div class="payment-total">
+                <span>Total amount</span>
+                <strong>$578.00</strong>
+            </div>
+
+            <form class="payment-form">
+                <label for="card-name">Cardholder name</label>
+                <input id="card-name" type="text" value="Reid Lin"/>
+
+                <label for="card-number">Card number</label>
+                <input id="card-number" type="text" value="1234 5678 9012 3456"/>
+
+                <div class="payment-row">
+                    <div>
+                        <label for="expiry-date">Expiry date</label>
+                        <input id="expiry-date" type="text" value="01/01"/>
+                    </div>
+
+                    <div>
+                        <label for="cvv">CVV</label>
+                        <input id="cvv" type="text" value="123"/>
+                    </div>
+                </div>
+            </form>
         </section>
     </main>
 </body>
