@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosy Camp | Single Payment</title>
+        <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <header class="site-header">
+        <button class="back-button" type="button" onclick="history.back()" aria-label="Go back">
+            ‹
+        </button>
+
+        <button class="menu-toggle" type="button" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <a class="brand" href="homepage.html">Cosy camp</a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+            <a href="homepage.html">Home</a>
+            <a href="products.html">Tent</a>
+            <a href="products.html">Camping</a>
+            <a href="products.html">Accessories</a>
+        </nav>
+
+        <form class="header-search">
+            <label for="site-search">Search products</label>
+            <input id="site-search" type="search" placeholder="Search product..."/>
+        </form>
+
+        <a class="cart-button" href="cart.html" aria-label="Open cart">
+            <span class="cart-icon"></span>
+            <span class="cart-count">2</span>
+        </a>
+    </header>
+
+    <nav class="mobile-menu" aria-label="Mobile navigation">
+        <a href="homepage.html">Home</a>
+        <a href="products.html">Tent</a>
+        <a href="products.html">Camping</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+
+    <main>
+        <section class="payment-panel" aria-label="Payment details">
+            <p class="checkout-step">Step 2 of 3</p>
+            <h1>Payment details</h1>
+            <p>Please enter your card information to complete the order.</p>
+
+            <div class="payment-total">
+                <span>Total amount</span>
+                <strong>$429.00</strong>
+            </div>
+
+            <form class="payment-form">
+                <label for="card-name">Cardholder name</label>
+                <input id="card-name" type="text" value="Reid Lin"/>
+
+                <label for="card-number">Card number</label>
+                <input id="card-number" type="text" value="1234 5678 9012 3456"/>
+
+                <div class="payment-row">
+                    <div>
+                        <label for="expiry-date">Expiry date</label>
+                        <input id="expiry-date" type="text" value="01/01"/>
+                    </div>
+
+                    <div>
+                        <label for="cvv">CVV</label>
+                        <input id="cvv" type="text" value="123"/>
+                    </div>
+                </div>
+
+                <a class="primary-button pay-button" href="success.html">Pay now</a>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+    <div>
+        <h2>Cosy Camp</h2>
+        <p>Premium outdoor gear for your adventures.</p>
+    </div>
+
+<nav aria-label="Footer navigation">
+    <h2>About us</h2>
+    <a href="#">About cosy camp</a>
+    <a href="#">Privacy policy</a>
+     <a href="#">Shopping policy</a>
+      <a href="#">Refund policy</a>
+</nav>
+
+<p class="copyright">@2026 Cosy Camp</p>
+</footer>
+
+ <script src="js/main.js"></script>
+</body>
+</html>
