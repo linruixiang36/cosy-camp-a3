@@ -746,6 +746,25 @@ body.menu-open .mobile-menu {
     font-size: 22px;
 }
 
+.payment-panel {
+    margin: 28px 20px 48px;
+    padding: 28px 20px;
+}
+
+.payment-panel h1 {
+    font-size: 32px;
+}
+
+.payment-total {
+    font-size: 16px;
+    padding: 18px;
+}
+
+.payment-row {
+    grid-template-columns: 1fr;
+}
+
+
 .success-panel{
     margin: 28px 20px 48px;
     padding: 28px 20px;
