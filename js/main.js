@@ -5,3 +5,4 @@ if (menuButton) {
     document.body.classList.toggle("menu-open");
 });
 }
+
